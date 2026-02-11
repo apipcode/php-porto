@@ -8,7 +8,7 @@
  */
 
 // Load dynamic content arrays (experience, projects, certifications)
-require __DIR__ . '/data/content.php';
+require __DIR__ . '/../data/content.php';
 
 // Simple contact form handling logic
 $contactErrors = [];
