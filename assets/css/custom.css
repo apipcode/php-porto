@@ -1,0 +1,32 @@
+/* Custom overrides and utilities for Habiburramdhan Lesmana portfolio
+   - Keep this light; Tailwind handles most styling.
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Example utility for subtle section dividers */
+.section-divider {
+  position: relative;
+}
+
+.section-divider::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(148, 163, 184, 0.4),
+    transparent
+  );
+}
+
+/* Button cursor hint for flip card */
+[data-flip-card] {
+  cursor: pointer;
+}
+
