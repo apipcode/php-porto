@@ -57,12 +57,12 @@ $experiences = [
 // Highlighted projects
 $projects = [
     [
-        'title'       => 'HR-Friendly Portfolio Platform',
+        'title'       => 'Irifair',
         'type'        => 'Personal Project',
-        'description' => 'A portfolio template designed specifically for HR review, with clear experience timelines, projects, and certification visibility.',
-        'stack'       => ['PHP', 'Tailwind CSS', 'MySQL'],
+        'description' => 'Redesigned Irifair website.',
+        'stack'       => ['Laravel', 'Tailwind CSS', 'Docker'],
         'github'      => 'https://github.com/your-github-username/hr-portfolio',
-        'live_demo'   => '#',
+        'live_demo'   => 'php-porto-production.up.railway.app',
     ],
     [
         'title'       => 'Internal Task Management Dashboard',
