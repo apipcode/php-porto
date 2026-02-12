@@ -58,19 +58,19 @@ $experiences = [
 $projects = [
     [
         'title'       => 'Irifair',
-        'type'        => 'Personal Project',
+        'type'        => 'Client Project',
         'description' => 'Redesigned Irifair website.',
         'stack'       => ['Laravel', 'Tailwind CSS', 'Docker'],
         'github'      => 'https://github.com/apipcode/php-porto',
         'live_demo'   => 'https://php-porto-production.up.railway.app',
     ],
     [
-        'title'       => 'Internal Task Management Dashboard',
-        'type'        => 'Client Project',
-        'description' => 'Role-based dashboard for managing internal tasks, deadlines, and status tracking within a small team.',
-        'stack'       => ['PHP', 'MySQL', 'Alpine.js', 'Tailwind CSS'],
-        'github'      => '',
-        'live_demo'   => '#',
+        'title'       => 'Website Portofolio With Native PHP',
+        'type'        => 'Personal Project',
+        'description' => 'Personal Website Portofolio Using Native PHP.',
+        'stack'       => ['PHP', 'Bootstrap', 'Javascript', 'Tailwind CSS'],
+        'github'      => 'https://github.com/apipcode/php-porto',
+        'live_demo'   => 'https://php-porto-production.up.railway.app',
     ],
     [
         'title'       => 'Lightweight CMS for Landing Pages',
