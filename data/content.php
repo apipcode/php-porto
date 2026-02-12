@@ -61,8 +61,8 @@ $projects = [
         'type'        => 'Client Project',
         'description' => 'Redesigned Irifair website.',
         'stack'       => ['Laravel', 'Tailwind CSS', 'Docker'],
-        'github'      => 'https://github.com/apipcode/php-porto',
-        'live_demo'   => 'https://php-porto-production.up.railway.app',
+        'github'      => 'https://github.com/apipcode/irifair-website-redesign',
+        'live_demo'   => 'https://irifair-website-redesign.vercel.app',
     ],
     [
         'title'       => 'Website Portofolio With Native PHP',
