@@ -19,8 +19,8 @@ $experiences = [
         'company'    => 'Badan Riset Dan Inovasi Nasional',
         'role'       => 'Front-End Developer',
         'location'   => 'Indonesia - Jakarta',
-        'duration'   => '2023 – Present',
-        'stack'      => ['PHP', 'MySQL', 'REST API', 'Tailwind CSS'],
+        'duration'   => '6 months',
+        'stack'      => ['PHP', 'Laravel', 'Docker', 'Bootstrap', 'Tailwind CSS'],
         'highlights' => [
             'Architected and maintained responsive front-end interfaces for two primary web applications built on the Laravel framework, ensuring seamless user experiences.',
             'Engineered highly reusable and accessible UI components using Tailwind CSS, adhering to modern mobile-first design principles.',
@@ -73,12 +73,12 @@ $projects = [
         'live_demo'   => 'https://php-porto-production.up.railway.app',
     ],
     [
-        'title'       => 'Lightweight CMS for Landing Pages',
+        'title'       => 'Website-Novels',
         'type'        => 'Personal Project',
-        'description' => 'Simple content management system enabling non-technical users to update landing page sections without touching code.',
-        'stack'       => ['PHP', 'MySQL', 'Tailwind CSS'],
-        'github'      => 'https://github.com/your-github-username/lightweight-cms',
-        'live_demo'   => '#',
+        'description' => 'Personal Website Reading E-Novel Services',
+        'stack'       => ['PHP', 'MySQL', 'Tailwind CSS', 'Laravel'],
+        'github'      => 'https://github.com/apipcode/website-novels',
+        'live_demo'   => 'https://website-novels.vercel.app/',
     ],
 ];
 
