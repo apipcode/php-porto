@@ -97,11 +97,11 @@ $projects = [
         // 'live_demo'   => 'https://php-porto-production.up.railway.app',
     ],
     [
-        'title'       => 'Website-Novels',
+        'title'       => 'PembelianBahanBakar',
         'type'        => 'Personal Project',
-        'description' => 'Personal Website Reading E-Novel Services',
-        'stack'       => ['PHP', 'MySQL', 'Tailwind CSS', 'Laravel'],
-        'github'      => 'https://github.com/apipcode/website-novels',
+        'description' => 'Sistem manajemen transaksi bahan bakar berbasis web untuk pencatatan penjualan secara real-time. Fitur utama mencakup pengelolaan data pelanggan, kalkulasi otomatis volume liter terhadap harga (Pertalite, Pertamax, dll), serta riwayat transaksi yang terorganisir dengan antarmuka modern.',
+        'stack'       => ['Laravel 11', 'Tailwind CSS', 'SQLite', 'Blade Templates'],
+        'github'      => 'https://github.com/apipcode/PembelianBahanbakar',
         // 'live_demo'   => 'https://website-novels.vercel.app/',
     ],
     [
