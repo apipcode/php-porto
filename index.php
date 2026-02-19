@@ -407,13 +407,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
                                         </div>
                                     <?php endif; ?>
                                     <div class="mt-4 flex flex-wrap gap-3 text-xs font-medium text-primary-700 dark:text-primary-200">
-                                        <?php if (!empty($project['github'])): ?>
+                                        <?php if (!empty($project['github']) && $project['github'] !== '-'): ?>
                                             <a href="<?php echo $project['github']; ?>" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1 hover:text-primary-100 underline-offset-4 hover:underline">
                                                 <span>GitHub</span>
                                                 <span aria-hidden="true">↗</span>
                                             </a>
                                         <?php endif; ?>
-                                        <?php if (!empty($project['live_demo'])): ?>
+                                        <?php if (!empty($project['live_demo']) && $project['live_demo'] !== '-'): ?>
                                             <a href="<?php echo $project['live_demo']; ?>" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1 hover:text-primary-100 underline-offset-4 hover:underline">
                                                 <span>Live Demo</span>
                                                 <span aria-hidden="true">↗</span>
