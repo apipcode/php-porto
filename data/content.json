@@ -189,6 +189,20 @@
             ],
             "github": "https://github.com/apipcode/realtime-crypto-dashboard",
             "live_demo": ""
+        },
+        {
+            "title": "digital-restaurant-menu",
+            "type": "Personal Project",
+            "category": "fullstack",
+            "description": "BiteTrack is a minimal SaaS solution designed for restaurants to digitize their menus and handle local table orders efficiently. It provides a seamless mobile-first experience for customers and an easy-to-use dashboard for restaurant administrators.",
+            "stack": [
+                "PHP",
+                "MySQL",
+                "Tailwind CSS",
+                "Laravel"
+            ],
+            "github": "https://github.com/apipcode/digital-restaurant-menu",
+            "live_demo": "https://digital-restaurant-menu-nu.vercel.app"
         }
     ],
     "certifications": [
