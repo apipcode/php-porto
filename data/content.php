@@ -55,10 +55,12 @@ $experiences = [
 ];
 
 // Highlighted projects
+// Highlighted projects
 $projects = [
     [
         'title'       => 'Irifair',
         'type'        => 'Client Project',
+        'category'    => 'fullstack',
         'description' => 'Redesigned Irifair website.',
         'stack'       => ['Laravel', 'Tailwind CSS', 'Docker'],
         'github'      => 'https://github.com/apipcode/irifair-website-redesign',
@@ -67,6 +69,7 @@ $projects = [
     [
         'title'       => 'Website Portofolio With Native PHP',
         'type'        => 'Personal Project',
+        'category'    => 'front-end',
         'description' => 'Personal Website Portofolio Using Native PHP.',
         'stack'       => ['PHP', 'Bootstrap', 'Javascript', 'Tailwind CSS'],
         'github'      => 'https://github.com/apipcode/php-porto',
@@ -75,6 +78,7 @@ $projects = [
     [
         'title'       => 'Website-Novels',
         'type'        => 'Personal Project',
+        'category'    => 'fullstack',
         'description' => 'Personal Website Reading E-Novel Services',
         'stack'       => ['PHP', 'MySQL', 'Tailwind CSS', 'Laravel'],
         'github'      => 'https://github.com/apipcode/website-novels',
@@ -83,6 +87,7 @@ $projects = [
     [
         'title'       => 'Data-Siswa',
         'type'        => 'Personal Project',
+        'category'    => 'backend',
         'description' => 'A comprehensive Student Management System featuring full CRUD functionality. Built with Laravel 11 monolithic architecture, styled with Tailwind CSS for a modern responsive UI, and optimized with SQLite for a lightweight database implementation.',
         'stack'       => ['Laravel 11', 'Tailwind CSS', 'Blade Templates', 'SQLite'],
         'github'      => 'https://github.com/apipcode/Data-Siswa',
@@ -91,6 +96,7 @@ $projects = [
     [
         'title'       => 'Property-Rent',
         'type'        => 'Personal Project',
+        'category'    => 'front-end',
         'description' => 'Aplikasi Mobile Flutter untuk menyewa berbagai jenis properti seperti lapangan olahraga,villa,ruang acara,dan jenis tempat sewa lainnya',
         'stack'       => ['Flutter'],
         'github'      => 'https://github.com/apipcode/property-rent',
@@ -99,6 +105,7 @@ $projects = [
     [
         'title'       => 'PembelianBahanBakar',
         'type'        => 'Personal Project',
+        'category'    => 'backend',
         'description' => 'Sistem manajemen transaksi bahan bakar berbasis web untuk pencatatan penjualan secara real-time. Fitur utama mencakup pengelolaan data pelanggan, kalkulasi otomatis volume liter terhadap harga (Pertalite, Pertamax, dll), serta riwayat transaksi yang terorganisir dengan antarmuka modern.',
         'stack'       => ['Laravel 11', 'Tailwind CSS', 'SQLite', 'Blade Templates'],
         'github'      => 'https://github.com/apipcode/PembelianBahanbakar',
@@ -107,6 +114,7 @@ $projects = [
     [
         'title'       => 'CRUD-Apotek',
         'type'        => 'Personal Project',
+        'category'    => 'fullstack',
         'description' => 'Aplikasi CRUD Apotek berbasis Laravel untuk manajemen data obat dan transaksi.',
         'stack'       => ['Laravel', 'Tailwind CSS', 'Docker'],
         'github'      => 'https://github.com/apipcode/crud-apotek-laravel',
@@ -115,6 +123,7 @@ $projects = [
     [
         'title'       => 'Website Portofolio With Golang',
         'type'        => 'Personal Project',
+        'category'    => 'fullstack',
         'description' => 'Personal Website Portofolio Using Golang.',
         'stack'       => ['PHP', 'Bootstrap', 'Javascript', 'Tailwind CSS'],
         'github'      => 'https://github.com/apipcode/portoweb-go',
@@ -123,6 +132,7 @@ $projects = [
     [
         'title'       => 'CRUD-AbsensiKaryawan',
         'type'        => 'Personal Project',
+        'category'    => 'backend',
         'description' => 'Sistem pencatatan kehadiran karyawan berbasis web yang efisien. Memungkinkan admin untuk mengelola data absensi harian, memantau jam masuk/keluar, serta mengkategorikan status kehadiran dengan antarmuka yang responsif dan user-friendly.',
         'stack'       => ['Laravel 11', 'Tailwind CSS', 'SQLite', 'Blade Templates'],
         'github'      => 'https://github.com/apipcode/CRUD-AbsensiKaryawan',
@@ -138,6 +148,7 @@ $certifications = [
         'issued'        => '2023',
         'credential_id' => 'CERT-1234-EXAMPLE',
         'verify_url'    => 'https://example.com/verify/cert-1234',
+        'category'      => 'backend',
     ],
     [
         'name'          => 'Backend Web Development Specialization',
@@ -145,6 +156,7 @@ $certifications = [
         'issued'        => '2022',
         'credential_id' => 'BACKEND-5678-EXAMPLE',
         'verify_url'    => 'https://example.com/verify/backend-5678',
+        'category'      => 'backend',
     ],
     [
         'name'          => 'Responsive Web Design',
@@ -152,6 +164,32 @@ $certifications = [
         'issued'        => '2021',
         'credential_id' => 'RWD-91011-EXAMPLE',
         'verify_url'    => 'https://example.com/verify/rwd-91011',
+        'category'      => 'front-end',
+    ],
+    // Adding more dummy certifications to demonstrate the 'View More' feature
+    [
+        'name'          => 'Cybersecurity Fundamentals',
+        'issuer'        => 'Tech Security Institute',
+        'issued'        => '2023',
+        'credential_id' => 'SEC-001',
+        'verify_url'    => '#',
+        'category'      => 'cybersecurity',
+    ],
+    [
+        'name'          => 'Game Development with Unity',
+        'issuer'        => 'GameDev Academy',
+        'issued'        => '2022',
+        'credential_id' => 'GAME-002',
+        'verify_url'    => '#',
+        'category'      => 'gamedeveloper',
+    ],
+    [
+        'name'          => 'Full Stack React & Node',
+        'issuer'        => 'Bootcamp X',
+        'issued'        => '2023',
+        'credential_id' => 'FS-003',
+        'verify_url'    => '#',
+        'category'      => 'fullstack',
     ],
 ];
 

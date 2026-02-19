@@ -373,7 +373,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
                     </div>
 
                     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                        <?php foreach ($projects as $project): ?>
+                        <?php 
+                        // Limit to first 6 projects
+                        $visibleProjects = array_slice($projects, 0, 6);
+                        foreach ($visibleProjects as $project): 
+                        ?>
                             <article class="group flex flex-col rounded-2xl border border-slate-200 bg-white shadow-soft overflow-hidden dark:border-slate-800/80 dark:bg-slate-900/80">
                                 <div class="relative h-32 bg-gradient-to-br from-primary-100 via-slate-50 to-slate-200 dark:from-primary-500/20 dark:via-slate-900 dark:to-slate-950">
                                     <div class="absolute inset-0 opacity-40 group-hover:opacity-60 transition-opacity">
@@ -420,6 +424,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
                             </article>
                         <?php endforeach; ?>
                     </div>
+
+                    <div class="mt-10 flex justify-center">
+                        <a href="projects.php" class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 shadow-sm hover:border-primary-400 hover:text-primary-700 transition-colors dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-primary-400 group">
+                            View All Projects
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
+                    </div>
                 </div>
             </section>
 
@@ -438,7 +449,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
                     </div>
 
                     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                        <?php foreach ($certifications as $cert): ?>
+                        <?php 
+                        // Limit to first 3 certifications
+                        $visibleCerts = array_slice($certifications, 0, 3);
+                        foreach ($visibleCerts as $cert): 
+                        ?>
                             <article class="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-5 shadow-soft dark:border-slate-800/80 dark:bg-slate-900/80">
                                 <div>
                                     <h3 class="text-sm md:text-base font-semibold text-slate-900 dark:text-slate-50">
@@ -466,6 +481,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
                                 </div>
                             </article>
                         <?php endforeach; ?>
+                    </div>
+
+                    <div class="mt-10 flex justify-center">
+                        <a href="certifications.php" class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 shadow-sm hover:border-primary-400 hover:text-primary-700 transition-colors dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-primary-400 group">
+                            View All Certifications
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
                     </div>
                 </div>
             </section>
