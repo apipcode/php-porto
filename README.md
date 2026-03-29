@@ -1,48 +1,32 @@
-# PHP Porto - Vercel Deployment
+# Personal Portfolio
 
-This is a portfolio website built in plain PHP. It is configured to run on [Vercel](https://vercel.com/) utilizing the community PHP runtime for Serverless Functions.
+A professional, responsive portfolio website built with native PHP. This project showcases my skills, certifications, and previous works in a clean, easily accessible interface.
 
-## Deployment Instructions
+## 🚀 Features
 
-Since Vercel natively supports Node.js, Next.js, and static site generation, running PHP requires deploying via the `vercel-php` community runtime configured in `vercel.json`.
+- **Dynamic Content:** Projects and certifications are loaded efficiently.
+- **Admin Dashboard:** Built-in admin panel to manage and update portfolio content.
+- **Responsive Design:** Fully responsive layout that looks great on desktop, tablet, and mobile devices.
+- **Modern UI:** Clean, professional, and accessible aesthetic.
 
-### Option 1: Deploying via Vercel Dashboard (GitHub Integration)
+## 🛠️ Technologies Used
 
-This is the easiest way to deploy if you are hosting your repository on GitHub.
+- **Backend:** PHP (Native)
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Data Storage:** JSON / PHP data files
 
-1. **Push your code to GitHub**: Commit your clone and push it to a new GitHub repository.
-2. **Import Project**: Go to the Vercel Dashboard and click "Add New" -> "Project".
-3. **Select Repository**: Select the GitHub repository you just pushed to.
-4. **Deploy**: Leave all build commands and output directories as default. Vercel will automatically read the `vercel.json` file and use the `vercel-community/php` runtime.
-5. **Visit Site**: Once deployment finishes, your site will be live. Let Vercel build the project; the PHP runtime will serve your pages perfectly!
+## 💻 Running Locally
 
-### Option 2: Deploying via Vercel CLI (Local Deployment)
+To run this project on your local machine:
 
-If you prefer using the command line to deploy directly from your local environment:
-
-1. **Install Vercel CLI**: If you haven't already, install the Vercel tool globally via npm.
+1. Clone this repository:
    ```bash
-   npm i -g vercel
+   git clone https://github.com/apipcode/php-porto.git
    ```
+2. Move the project folder into your local web server directory (e.g., `htdocs` for XAMPP or `www` for WAMP/Laragon).
+3. Start your Apache server.
+4. Open your web browser and navigate to `http://localhost/php-porto` (or your configured local URL).
 
-2. **Login to Vercel**: 
-   ```bash
-   vercel login
-   ```
+## ☁️ Deployment
 
-3. **Deploy**: In the root area of this project folder, run:
-   ```bash
-   vercel
-   ```
-   Follow the prompts. Choose the scope and link the local directory to a new project. Leave default build instructions. 
-
-4. **Production Deployment**: Once you're ready to ship changes to production, run:
-   ```bash
-   vercel --prod
-   ```
-
-## Included Configurations
-
-- **`vercel.json`**: This defines the Vercel setup. It directs Vercel to use the `vercel-php` compilation for `.php` files and routes incoming HTTP traffic accurately.
-
-Enjoy your serverless PHP architecture!
+This project includes a `vercel.json` file, making it ready to be deployed effortlessly. Simply import this repository into your Vercel account, and the `vercel-community/php` runtime will serve the application automatically!
